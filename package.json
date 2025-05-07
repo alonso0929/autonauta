@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "apitest": "python -m behave src/api-test/features --no-capture --tags=@API --format json.pretty --outfile src/api-test/reports/report.json",
+        "report-apitest": "python src/api-test/utils/report.py"
+    }
+}
