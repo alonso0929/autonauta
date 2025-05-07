@@ -1,15 +1,21 @@
-# autonauta Automation Framework
+# AUTONAUTA Automation Framework
 
 ## Technologies
 
--Python
--Cucumber
+- Python
+- Cucumber
+- Selenium
 
 ## Run the project
 
 ### API Test:
 ```
 npm run apitest
+```
+
+### Web Test:
+```
+npm run webtest
 ```
 
 ## Reports
@@ -19,8 +25,13 @@ npm run apitest
 npm run report-apitest
 ```
 
+### Web Reports:
+```
+npm run report-webtest
+```
+
 ## License
 This framework is Open Source
 
-## Contributors
+## Developer
 - Alonso Molina
