@@ -5,6 +5,8 @@
 - Python
 - Cucumber
 - Selenium
+- BeautifulSoup
+- FastAPI
 
 ## Run the project
 
@@ -16,6 +18,11 @@ npm run apitest
 ### Web Test:
 ```
 npm run webtest
+```
+
+### Server Integration Test:
+```
+npm run integrationtest
 ```
 
 ## Reports
