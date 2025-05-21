@@ -1,14 +1,18 @@
 # AUTONAUTA Automation Framework
 
-## Technologies
+## Acerca de Autonauta
+Autonauta es un framework de automatización de código abierto que utiliza lenguaje Python. Está diseñado para optimizar la interacción con plataformas web y servicios, integrando técnicas de automatización y web scraping para mejorar la eficiencia en diversas aplicaciones. Además, permite la generación de reportes detallados para cada plataforma.
+
+## Tecnologías
 
 - Python
 - Cucumber
 - Selenium
+- Playwright
 - BeautifulSoup
 - FastAPI
 
-## Run the project
+## Ejecución del proyecto
 
 ### API Test:
 ```
@@ -20,25 +24,30 @@ npm run apitest
 npm run webtest
 ```
 
+### Web Scraping:
+```
+npm run webscraping
+```
+
 ### Server Integration Test:
 ```
 npm run integrationtest
 ```
 
-## Reports
+## Reportes
 
-### API Reports:
+### API Reportes:
 ```
 npm run report-apitest
 ```
 
-### Web Reports:
+### Web Reportes:
 ```
 npm run report-webtest
 ```
 
-## License
-This framework is Open Source
+## Licencia
+Este framework es de código abierto
 
-## Developer
+## Desarrollador
 - Alonso Molina

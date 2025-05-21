@@ -4,6 +4,7 @@
         "report-apitest": "python src/api-test/utils/report.py",
         "webtest": "python -B -m behave src/web-test/features --no-capture --tags=@WEB --format json.pretty --outfile src/web-test/reports/report.json",
         "report-webtest": "python src/web-test/utils/report.py",
+        "webscraping": "python -B src/web-scraping/main.py",
         "integrationtest": "python -B -m uvicorn src.integration.app:app --reload"
     }
 }
