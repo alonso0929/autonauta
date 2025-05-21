@@ -31,5 +31,6 @@ with sync_playwright() as p:
 
     df = pd.DataFrame(data)
     df.to_excel(file_path, index=False, engine="openpyxl")
+    print(f"Reporte generado exitosamente: {file_path}")
 
     browser.close()
