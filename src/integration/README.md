@@ -1,0 +1,3 @@
+## Descripción
+Este desarrollo implementa técnicas de automatización web y web scraping para la consulta eficiente de información empresarial. A través del número de RUC, permite acceder a datos relevantes directamente desde la plataforma de SUNAT, optimizando el proceso de extracción y análisis de información.
+El servidor debe iniciarse utilizando el comando especificado en el archivo README.md del proyecto. Posteriormente, se deben ejecutar las API incluidas en la colección ubicada dentro de la carpeta del proyecto.
