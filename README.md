@@ -12,6 +12,40 @@ Autonauta es un framework de automatización de código abierto que utiliza leng
 - BeautifulSoup
 - FastAPI
 
+## Pre-Requisitos
+
+- Node.js
+```
+https://nodejs.org/es
+```
+
+- Python
+```
+https://www.python.org/
+```
+
+- Visual Studio Code
+```
+https://code.visualstudio.com/
+```
+
+## Instalación de dependencias
+
+### Crear entorno virtual
+```
+python -m venv env
+```
+
+### Activar entorno virtual
+```
+.\env\Scripts\activate
+```
+
+### Instalar dependencias
+```
+pip install -r requirements.txt
+```
+
 ## Ejecución del proyecto
 
 ### API Test:
